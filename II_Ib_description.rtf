@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 II_Ib: This EEG dataset is slow cortical potentials (SCPs) recorded from an artificially respirated ALS patient\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \expnd0\expndtw0\kerning0
+The datasets were taken from an artificially respirated ALS patient. The subject was asked to move a cursor up and down on a computer screen, while his cortical potentials were taken. During the recording, the subject received auditory and visual feedback of his slow cortical potentials (Cz-Mastoids).\'a0 Cortical positivity lead to a downward movement of the cursor on the screen.\'a0 Cortical negativity lead to an upward movement of the cursor.\'a0 Each trial lasted 8s. \
+During every trial, the task was visually and auditorily presented by a highlighed goal at the top (for negativity) or bottom (for positivity) of the screen from second 0.5 until second 7.5 of every trial.\'a0 In addition, the task ("up" or "down") was vocalised at second 0.5. \
+The visual feedback was presented from second 2 to second 6.5. Only this 4.5 second interval of every trial is provided for training and testing. The sampling rate of 256 Hz and the recording length of 4.5s results in 1152 samples per channel for every trial. Besides, the detailed descriptions are also publicly available online at {\field{\*\fldinst{HYPERLINK "https://www.bbci.de/competition/ii/tuebingen_desc_ii.html"}}{\fldrslt https://www.bbci.de/competition/ii/tuebingen_desc_ii.html}}.\
+\
+Trial structure overview: \uc0\u8232 Duration: 8 s, no inter trial intervals \u8232 task presentation: from 0.5 s to 7.5 s \u8232 feedback period: from 2.0 s to 6.5 s \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+7 recording channels: \
+Channel 1: A1-Cz (10/20 system) (A1 = left mastoid) \
+Channel 2: A2-Cz \
+Channel 3: 2 cm frontal of C3 \
+Channel 4: 2 cm parietal of C3 \
+Channel 5: vEOG artifact channel to detect vertical eye movements \
+Channel 6: 2 cm frontal of C4 \
+Channel 7: 2 cm parietal of C4 \
+\
+Sampling rate: 256Hz\
+Each channel records 1152 samples\
+\
+\
+Data details:\
+II_Ib is a 2-class EEG dataset and it in total contains 200 EEG trials recorded from 2 sessions: 100 trials from session 1 and \
+100 trials from session 2. Each trial contains 8065 samples, in which the first column codes the class of the trial (i.e.,1/2). \
+The remaining columns contain samples of the 7 EEG channels (8064 in total). In detail, it starts with 1152 samples from\
+channel 1 and ends with 1152 samples from channel 7. \
+Additionally, Class 1 contains 100 trials * 8065 samples and Class 2 contains 100 trials * 8065 samples.}
