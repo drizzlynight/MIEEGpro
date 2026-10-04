@@ -1,2 +1,2 @@
 
-Run autorunning_MIEEGpro.m
+Run AutoSearching_main.m
